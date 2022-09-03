@@ -15,3 +15,6 @@ Display current directory contents, including hidden files
 
 Welcome
 A script that creates a directory 
+
+Betty in my first dicrectory
+Moves the file betty from /tmp/ to /tmp/my_first_directory
