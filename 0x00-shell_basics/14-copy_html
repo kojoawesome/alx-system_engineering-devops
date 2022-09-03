@@ -1,2 +1,2 @@
 #!/bin/bash
-cp  ls -t *.html . ../
+rsync -av *.html . ../
