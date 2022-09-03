@@ -18,3 +18,6 @@ A script that creates a directory
 
 Betty in my first dicrectory
 Moves the file betty from /tmp/ to /tmp/my_first_directory
+
+Bye Bye Betty 
+Delete's the file betty 
