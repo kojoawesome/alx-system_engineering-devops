@@ -20,4 +20,7 @@ Betty in my first dicrectory
 Moves the file betty from /tmp/ to /tmp/my_first_directory
 
 Bye Bye Betty 
-Delete's the file betty 
+Delete's the file betty
+
+Bye Bye my first directory
+Delete's the directory my_first_directory
