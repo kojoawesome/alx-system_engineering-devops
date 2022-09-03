@@ -8,4 +8,7 @@ There is no place like home
 Brings user to home directory
 
 The long format
-Display current directory contents in a long format  
+Display current directory contents in a long format
+
+Hidden files
+Display current directory contents, including hidden files  
