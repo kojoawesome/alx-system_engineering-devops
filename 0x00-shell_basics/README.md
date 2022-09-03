@@ -12,3 +12,6 @@ Display current directory contents in a long format
 
 Hidden files
 Display current directory contents, including hidden files  
+
+Welcome
+A script that creates a directory 
