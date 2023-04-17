@@ -1,0 +1,30 @@
+When you type https://www.google.com into your web browser and press enter, a series of complex processes begin to take place in order to display the webpage. In this blog post, we will walk through what happens behind the scenes.
+
+DNS request:
+The first step is your web browser sends a request to a DNS (Domain Name System) server to resolve the URL (Uniform Resource Locator) into an IP address. The DNS server looks up the IP address associated with the URL and returns it to the browser.
+
+TCP/IP:
+Once the IP address is obtained, the browser initiates a TCP/IP (Transmission Control Protocol/Internet Protocol) connection with the server that hosts the website. TCP/IP is a set of communication protocols that allow computers to communicate with each other over the internet.
+
+Firewall:
+Before any data can be transferred between the client and the server, the firewall checks the request to ensure that it is not malicious. A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+
+HTTPS/SSL:
+If the firewall approves the request, the web browser and the server establish a secure HTTPS (Hypertext Transfer Protocol Secure) connection using SSL (Secure Sockets Layer) or TLS (Transport Layer Security) encryption. This encryption ensures that all communication between the client and server is secure and cannot be intercepted by third parties.
+
+Load-balancer:
+When the connection is established, the request is sent to a load balancer. The load balancer is a server that distributes incoming network traffic across multiple web servers to ensure that no single server is overloaded with requests.
+
+Web server:
+The load balancer sends the request to one of the web servers. The web server is responsible for retrieving the requested webpage from the server's file system and generating an HTTP (Hypertext Transfer Protocol) response.
+
+Application server:
+If the requested page requires dynamic content, such as a search result, the web server sends the request to the application server. The application server generates the dynamic content and returns it to the web server.
+
+Database:
+If the dynamic content requires data from a database, the application server sends a request to the database server. The database server retrieves the requested data and sends it back to the application server, which generates the dynamic content and sends it back to the web server.
+
+Web server again:
+Finally, the web server sends the HTTP response, which includes the requested webpage, to the client's web browser. The web browser receives the response and displays the webpage on the user's screen.
+
+In conclusion, when you type https://www.google.com into your web browser and press enter, a complex series of processes takes place behind the scenes to display the webpage. These processes involve DNS resolution, TCP/IP connections, firewalls, encryption, load balancers, web servers, application servers, and databases. Understanding these processes can help you appreciate the complexity of the modern web and the technologies that make it possible.
